@@ -58,3 +58,16 @@ body {
 .header-spacer {
   height: 80px;
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #cfc8c7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a32306;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E5B94C;
+}

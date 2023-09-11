@@ -1,0 +1,76 @@
+{
+  "programs": [
+    {
+      "image": "Program1.jpg",
+      "color": "#065d7f",
+      "logo": "",
+      "stat": "3x boost in brand identity.",
+      "type": "Photography",
+      "client": "Reliable Photo Stores"
+    },
+    {
+      "image": "Program2.jpg",
+      "color": "#d5e506",
+      "logo": "",
+      "stat": "Overall increase in brand recognition.",
+      "type": "Gym and Fitness",
+      "client": "CrossBox"
+    },
+    {
+      "image": "Program3.jpg",
+      "color": "#181c28",
+      "logo": "",
+      "stat": "More customer retention.",
+      "type": "Electronics",
+      "client": "TOP TEN"
+    },
+    {
+      "image": "Program4.jpg",
+      "color": "#ebafc7",
+      "logo": "",
+      "stat": "On-Time delivery.",
+      "type": "Salon & Spa",
+      "client": "ENVI"
+    },
+    {
+      "image": "Program5.jpg",
+      "color": "#9db0be",
+      "logo": "",
+      "stat": "Increased brand performance.",
+      "type": "Laminate & Charcoal Display",
+      "client": "Royale Display"
+    },
+    {
+      "image": "Program6.jpg",
+      "color": "#c69562",
+      "logo": "",
+      "stat": "Over time growth increase.",
+      "type": "Construction & Architecture",
+      "client": "EV Homes"
+    },
+    {
+      "image": "Program1.jpg",
+      "color": "#924f3f",
+      "logo": "",
+      "stat": "Best Ad Performance.",
+      "type": "Footwear",
+      "client": "Shoemaker"
+    },
+    {
+      "image": "Program1.jpg",
+      "color": "#3b4b46",
+      "logo": "",
+      "stat": "Maximum global and local reach.",
+      "type": "Longue",
+      "client": "The ROAR Lounge"
+    },
+    {
+      "image": "Program1.jpg",
+      "color": "#d65446",
+      "logo": "",
+      "stat": "Strategies that work.",
+      "type": "Food Joint",
+      "client": "KETO COP"
+    }
+  ]
+}

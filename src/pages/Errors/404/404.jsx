@@ -14,14 +14,14 @@ function Error404() {
                 <div className="col-lg-6 error-page-divider text-lg-left pl-lg-4">
                   <h2>SORRY!</h2>
                   <h3 className="font-weight-light">
-                    The page you're looking for was not found.
+                   {" The page you're looking for was not found."}
                   </h3>
                 </div>
               </div>
               <div className="row mt-5">
                 <div className="col-12 text-center mt-xl-2">
                   <NavLink className="text-white font-weight-medium" to="/">
-                    Back to Dashboard
+                    Back to Home
                   </NavLink>
                 </div>
               </div>

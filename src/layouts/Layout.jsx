@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 // components ------------------------------------
 import Header from "../components/LayoutComponents/Header/Header"
-import Footer from "../components/LayoutComponents/Footer/Footer";
+// import Footer from "../components/LayoutComponents/Footer/Footer";
 
 const Layout = () => {
   return (
@@ -15,7 +15,7 @@ const Layout = () => {
             <div>
               <Outlet />
             </div>
-            <Footer />
+            {/* <Footer /> */}
           </main>
         </div>
       </div>

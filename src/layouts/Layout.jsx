@@ -9,6 +9,7 @@ const Layout = () => {
     <div>
       <div>
         <Header />
+        <div className="header-spacer"></div>
         <div>
           <main>
             <div>

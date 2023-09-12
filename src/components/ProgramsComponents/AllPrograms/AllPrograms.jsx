@@ -7,29 +7,27 @@ export default function AllPrograms() {
     <div>
       <div className="list">
         {programsData.programs.map((item) => (
-          <div key={item.color}>
-            <a data-aos="fade-up" className="work-tile">
-              <div className="background">
-                <img
-                  src={`src/assets/images/${item.image}`}
-                  alt="HABIT Program Image"
-                />
+          <a key={item.color} data-aos="fade-up" className="work-tile">
+            <div className="background">
+              <img
+                src={`src/assets/images/${item.image}`}
+                alt="HABIT Program Image"
+              />
+            </div>
+            <div className="foreground">
+              <div
+                className="brand-colour"
+                style={{ backgroundColor: item.color }}
+              ></div>
+              <div className="top">
+                <div className="stat">{item.stat}</div>
               </div>
-              <div className="foreground">
-                <div
-                  className="brand-colour"
-                  style={{ backgroundColor: item.color }}
-                ></div>
-                <div className="top">
-                  <div className="stat">{item.stat}</div>
-                </div>
-                <div className="bottom">
-                  <div className="type">{item.type}</div>
-                  <div className="client">{item.client}</div>
-                </div>
+              <div className="bottom">
+                <div className="type">{item.type}</div>
+                <div className="client">{item.client}</div>
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         ))}
       </div>
     </div>

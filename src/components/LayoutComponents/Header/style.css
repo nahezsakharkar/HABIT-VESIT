@@ -9,8 +9,6 @@ Yellow Color Code #E5B94C
   left: 0;
   right: 0;
   top: 0;
-  /* background-color: rgb(229, 185, 76, 90%); */
-  /* background-color: rgba(255, 255, 255, 0.9); */
   height: 80px;
   padding: 0 20px;
   transition: opacity 0.3s ease;
@@ -23,7 +21,7 @@ Yellow Color Code #E5B94C
 }
 
 .notransparentnohome {
- background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .notransparent {

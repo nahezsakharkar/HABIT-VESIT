@@ -30,6 +30,13 @@ body {
   flex-grow: 1;
 }
 
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  max-width: 1300px;
+}
+
 .page-heading {
   padding: 50px 20px 40px;
   text-align: center;
@@ -65,9 +72,9 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #a32306;
+  background: rgb(163, 35, 6);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #E5B94C;
+  background: #e5b94c;
 }

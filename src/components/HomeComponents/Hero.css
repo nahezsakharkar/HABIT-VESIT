@@ -3,7 +3,7 @@
   /* background-color: #a32306; */
   background: linear-gradient(180deg, #e8c05e 0%, rgba(163, 35, 6, 1) 100%);
 
-  min-height: calc(100vh - 80px);
+  min-height: 100vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

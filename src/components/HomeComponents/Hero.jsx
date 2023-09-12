@@ -24,7 +24,7 @@ const Hero = () => {
             Nurturing ideas is akin to tending a delicate sapling, providing the
             care and nurturing necessary for their growth and blossoming. It
             involves the gentle cultivation of innovative concepts and ensuring
-            they have the fertile ground they need to thrive
+            they have the fertile ground they need to thrive.
           </p>
         </div>
         <div className="explore-btn-box">

@@ -3,6 +3,7 @@ import "./style.css";
 function About() {
   return (
     <main className="about">
+      <div className="header-spacer"></div>
       <div className="coverimage">
         <img src="src/assets/images/Team.jpg" alt="Team Image" />
       </div>

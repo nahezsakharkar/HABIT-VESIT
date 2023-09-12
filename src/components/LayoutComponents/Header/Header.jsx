@@ -1,10 +1,12 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import "./style.css";
 
 import { useState, useEffect } from "react";
 
 export default function Header() {
   const [isNotAtTop, setIsNotAtTop] = useState(false);
+  const location = useLocation();
+  console.log(location.pathname == "/");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,8 +27,18 @@ export default function Header() {
   }, []);
 
   return (
-    <header id="header" className={isNotAtTop ? "transparent" : ""}>
-      <div className="main">
+    <header id="header">
+      <div
+        className={
+          location.pathname == "/"
+            ? isNotAtTop
+              ? "main notransparent"
+              : "main"
+            : isNotAtTop
+            ? "main notransparentnohome"
+            : "main"
+        }
+      >
         <div>
           <NavLink to="/">
             <img src="src\assets\images\logos\logo.png" alt="VESIT Logo" />

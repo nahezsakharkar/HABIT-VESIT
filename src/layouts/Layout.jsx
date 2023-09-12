@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 
 // components ------------------------------------
-import Header from "../components/LayoutComponents/Header/Header"
+import Header from "../components/LayoutComponents/Header/Header";
 // import Footer from "../components/LayoutComponents/Footer/Footer";
 
 const Layout = () => {
@@ -9,7 +9,6 @@ const Layout = () => {
     <div>
       <div>
         <Header />
-        <div className="header-spacer"></div>
         <div>
           <main>
             <div>

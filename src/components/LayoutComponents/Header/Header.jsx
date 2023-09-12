@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./style.css";
 
 import { useState, useEffect } from "react";
@@ -40,6 +40,12 @@ export default function Header() {
             <NavLink to="/Partners">Partners</NavLink>
             <NavLink to="/Portfolio">Portfolio</NavLink>
             <NavLink to="/Contact">Contact Us</NavLink>
+            <a
+              href="https://vesit.ves.ac.in/"
+              style={{ fontFamily: "Lucida Handwriting" }}
+            >
+              -- VESIT
+            </a>
           </nav>
         </div>
       </div>

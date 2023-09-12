@@ -4,10 +4,10 @@ import "./style.css";
 
 function Home() {
   return (
-    <>
+    <main>
       <Hero />
       <Leader />
-    </>
+    </main>
   );
 }
 

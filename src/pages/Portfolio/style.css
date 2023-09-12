@@ -1,0 +1,63 @@
+.category{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.port-container h1 {
+    text-align: center;
+}
+
+/* Add a line below the title */
+.port-container h1::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #E5B94C;
+    margin: 10px auto;
+}
+
+.category-button {
+    background-color: #A32306;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Style for the clickable categories */
+.category-button:hover {
+    background-color: #E5B94C;
+}
+
+/* Hide the startup descriptions by default */
+.startup-description {
+    display: none;
+}
+
+/* Show the startup descriptions when a category is clicked */
+.active-description {
+    display: block;
+}
+
+.startup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+/* Ensure a consistent height for each startup card */
+.startup {
+    border: 1px solid #ddd;
+    min-width: 80%;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    min-height: 200px; /* Adjust as needed */
+}
+

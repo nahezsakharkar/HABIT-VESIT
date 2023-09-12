@@ -14,11 +14,21 @@ import Contact from "./pages/Contact/Contact";
 import Error500 from "./pages/Errors/500/500";
 import Error404 from "./pages/Errors/404/404"
 
+// AOS----------
+import AOS from "aos";
+import 'aos/dist/aos.css'
+
 //toast
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="App">
       <ToastContainer />

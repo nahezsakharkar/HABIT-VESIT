@@ -1,0 +1,21 @@
+.about .coverimage {
+  margin: auto;
+  width: 800px;
+  height: 100%;
+}
+
+.about .coverimage img {
+  width: 100%;
+  height: 100%;
+}
+
+.about .sec-title {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about .sec-title h1 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.3;
+}

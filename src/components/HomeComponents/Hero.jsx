@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="hero-container">
       <div className="hero-container-col">
         <div className="hero-img-container">
-          <div className="bulb">
+          <div className="bulb" data-aos="zoom-in">
             <img src="src\assets\images\HERO.png" alt="Hero Icon" />
           </div>
           {/* <div className="wavedot">
@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="hero-img-circle"></div>
         </div>
       </div>
-      <div className="hero-container-col right">
+      <div className="hero-container-col right" data-aos="fade-left">
         <div className="hero-title">
           <h3>HABIT</h3>
           <h5>INCUBATION CENTRE</h5>

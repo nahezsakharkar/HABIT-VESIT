@@ -1,7 +1,16 @@
 import "./style.css";
 
 function About() {
-  return <div style={{height: "1000px", backgroundColor: "red"}}>About</div>;
+  return (
+    <main className="about">
+      <div className="coverimage">
+        <img src="src/assets/images/Team.jpg" alt="Team Image" />
+      </div>
+      <div className="sec-title">
+        <h1>About HABIT</h1>
+      </div>
+    </main>
+  );
 }
 
 export default About;

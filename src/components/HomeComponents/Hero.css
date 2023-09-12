@@ -1,6 +1,8 @@
 /* D9D9D9 */
 .hero-container {
-  background-color: #a32306;
+  /* background-color: #a32306; */
+  background: linear-gradient(180deg, #e8c05e 0%, rgba(163, 35, 6, 1) 100%);
+
   min-height: calc(100vh - 80px);
   display: flex;
   flex-direction: row;
@@ -53,8 +55,8 @@
 .wavedot {
   z-index: 2;
   position: absolute;
-      top: -51px;
-    left: -40px;;
+  top: -51px;
+  left: -40px;
 }
 
 .wavedot img {
@@ -93,7 +95,7 @@
 }
 
 .explore-btn-box {
-      margin-top: 15px;
+  margin-top: 15px;
 }
 /* button animation */
 

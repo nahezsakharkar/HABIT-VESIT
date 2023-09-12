@@ -1,5 +1,5 @@
-import React from "react";
 import "./Leader.css";
+
 const teamMembers = [
   {
     name: "Vijay Talreja",
@@ -19,16 +19,14 @@ const teamMembers = [
 
 const Leader = () => {
   return (
-    <div className="container">
+    <div className="leader-container">
       {teamMembers.map((t, index) => (
         <div className="col" key={index}>
-          <div className="card" >
+          <div className="card">
             <img src={t.path} alt={t.name} className="image" />
             <h2>{t.name}</h2>
             <p className="role">{t.role}</p>
-            <p className="quote">
-              {t.quote}
-            </p>
+            <p className="quote">{t.quote}</p>
           </div>
         </div>
       ))}

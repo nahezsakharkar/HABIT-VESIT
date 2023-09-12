@@ -1,6 +1,6 @@
 import "./style.css";
 
-import React, { useState } from "react";
+import { useState } from "react";
 
 const startupData = [
   {
@@ -32,7 +32,7 @@ function Portfolio() {
   }
 
   return (
-    <div className="port-container">
+    <div className="portfolio-container">
       <div className="category">
         {/* Clickable category buttons */}
         <button
@@ -69,14 +69,11 @@ function Portfolio() {
           All
         </button>
       </div>
-      
+
       <div className="startup-container">
         {/* Startup cards */}
         {startupData.map((startup, index) => (
-          <div
-            className="startup"
-            key={index}
-          >
+          <div className="startup" key={index}>
             <img src={startup.image} alt={startup.name} />
             <h2>{startup.name}</h2>
             <p className="startup-description">{startup.description}</p>

@@ -1,14 +1,14 @@
-.category{
+.portfolio-container .category{
     display: flex;
     flex-direction: row-reverse;
 }
 
-.port-container h1 {
+.portfolio-container h1 {
     text-align: center;
 }
 
 /* Add a line below the title */
-.port-container h1::after {
+.portfolio-container h1::after {
     content: "";
     display: block;
     width: 100px;
@@ -17,7 +17,7 @@
     margin: 10px auto;
 }
 
-.category-button {
+.portfolio-container .category-button {
     background-color: #A32306;
     color: #fff;
     border: none;
@@ -28,21 +28,21 @@
 }
 
 /* Style for the clickable categories */
-.category-button:hover {
+.portfolio-container .category-button:hover {
     background-color: #E5B94C;
 }
 
 /* Hide the startup descriptions by default */
-.startup-description {
+.portfolio-container .startup-description {
     display: none;
 }
 
 /* Show the startup descriptions when a category is clicked */
-.active-description {
+.portfolio-container .active-description {
     display: block;
 }
 
-.startup-container {
+.portfolio-container .startup-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +51,7 @@
 }
 
 /* Ensure a consistent height for each startup card */
-.startup {
+.portfolio-container .startup {
     border: 1px solid #ddd;
     min-width: 80%;
     padding: 20px;

@@ -1,85 +1,84 @@
 .impact-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
 }
 
-.impact {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-decoration: underline;
-    color: #A32306; /* Use #A32306 for text color */
+.impact-container .impact {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  color: #a32306; /* Use #A32306 for text color */
 }
 
-.box-container {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
+.impact-container .box-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
 }
 
-.box {
-    text-align: center;
-    flex: 1;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    background-color: #ffffff;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Add transition */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between; /* Align title at the bottom */
-    margin-right: 20px; /* Add margin for horizontal spacing */
-    height: 250px; /* Increase the height of each box */
+.impact-container .box {
+  text-align: center;
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #ffffff;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Add transition */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Align title at the bottom */
+  margin-right: 20px; /* Add margin for horizontal spacing */
+  height: 250px; /* Increase the height of each box */
 }
 
 /* Remove margin-right from the last box */
-.box:last-child {
-    margin-right: 0;
+.impact-container .box:last-child {
+  margin-right: 0;
 }
 
-.icon {
-    width: 100px; /* Fixed size for the icon container */
-    height: 100px; /* Fixed size for the icon container */
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #A32306; /* Use #A32306 for box title background */
-    color: #ffffff; /* Use #ffffff for box title text color */
-    margin-bottom: 10px;
+.impact-container .icon {
+  width: 100px; /* Fixed size for the icon container */
+  height: 100px; /* Fixed size for the icon container */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a32306; /* Use #A32306 for box title background */
+  color: #ffffff; /* Use #ffffff for box title text color */
+  margin-bottom: 10px;
 }
 
-.icon img {
-    max-width: 80%; /* Define a max width for the image */
-    max-height: 80%; /* Define a max height for the image */
+.impact-container .icon img {
+  max-width: 80%; /* Define a max width for the image */
+  max-height: 80%; /* Define a max height for the image */
 }
 
-.box-title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #A32306; /* Use #A32306 for box title text color */
-    margin-bottom: 10px; /* Add margin between title and line */
+.impact-container .box-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #a32306; /* Use #A32306 for box title text color */
+  margin-bottom: 10px; /* Add margin between title and line */
 }
 
-.line {
-    width: 50px;
-    height: 2px;
-    background-color: #A32306; /* Use #A32306 for line color */
-    margin-bottom: 10px; /* Add margin between line and next element */
+.impact-container .line {
+  width: 50px;
+  height: 2px;
+  background-color: #a32306; /* Use #A32306 for line color */
+  margin-bottom: 10px; /* Add margin between line and next element */
 }
-.additional-info{
-    
-    color: #A32306;
+.impact-container .additional-info {
+  color: #a32306;
 }
 
 /* Add hover effect */
-.box:hover {
-    transform: scale(1.05); /* Increase size on hover */
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Change box shadow on hover */
-    cursor: pointer; /* Change cursor on hover */
+.impact-container .box:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Change box shadow on hover */
+  cursor: pointer; /* Change cursor on hover */
 }

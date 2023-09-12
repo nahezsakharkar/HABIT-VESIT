@@ -1,12 +1,12 @@
-import React from "react";
-import "./style.css"
+import "./style.css";
+
 const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer">
-        <section class="ft-main">
-          <div class="ft-main-item">
-            <h2 class="ft-title">About</h2>
+        <section className="ft-main">
+          <div className="ft-main-item">
+            <h2 className="ft-title">About</h2>
             <ul>
               <li>
                 <a href="#">Services</a>
@@ -23,8 +23,8 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div class="ft-main-item">
-            <h2 class="ft-title">Resources</h2>
+          <div className="ft-main-item">
+            <h2 className="ft-title">Resources</h2>
             <ul>
               <li>
                 <a href="#">Docs</a>
@@ -41,8 +41,8 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div class="ft-main-item">
-            <h2 class="ft-title">Contact</h2>
+          <div className="ft-main-item">
+            <h2 className="ft-title">Contact</h2>
             <ul>
               <li>
                 <a href="#">Help</a>
@@ -56,8 +56,8 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div class="ft-main-item">
-            <h2 class="ft-title">Stay Updated</h2>
+          <div className="ft-main-item">
+            <h2 className="ft-title">Stay Updated</h2>
             <p>Get free updates before others do!</p>
             <form>
               <input
@@ -69,8 +69,8 @@ const Footer = () => {
             </form>
           </div>
         </section>
-        <section class="ft-legal">
-          <ul class="ft-legal-list">
+        <section className="ft-legal">
+          <ul className="ft-legal-list">
             <li>
               <a href="#">Terms &amp; Conditions</a>
             </li>

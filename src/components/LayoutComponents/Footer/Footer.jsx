@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./style.css";
 
 const Footer = () => {
@@ -69,15 +70,15 @@ const Footer = () => {
             </form>
           </div>
         </section>
-        <section className="ft-legal">
-          <ul className="ft-legal-list">
-            <li>
-              <a href="#">Terms &amp; Conditions</a>
-            </li>
-            <li>
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul>
+        <section className="fineprint">
+          <div className="label">The Fineprint</div>
+          <div className="copy">
+            © HABIT - VESIT Incubation 2023
+            <span className="divider"></span>
+            <Link to="/privacy-policy">Privacy Policy</Link>
+            <span className="divider"></span>
+            <Link to="/disclaimer">Disclaimer</Link>
+          </div>
         </section>
       </div>
     </div>

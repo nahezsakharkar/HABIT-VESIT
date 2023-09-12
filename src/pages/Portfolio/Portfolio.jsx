@@ -33,6 +33,7 @@ function Portfolio() {
 
   return (
     <div className="portfolio-container">
+      <div className="header-spacer"></div>
       <div className="category">
         {/* Clickable category buttons */}
         <button

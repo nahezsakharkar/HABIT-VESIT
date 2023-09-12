@@ -3,6 +3,7 @@ import "./style.css";
 export default function Partners() {
   return (
     <div className="partner-container">
+      <div className="header-spacer"></div>
       {/* <h1>PARTNERS</h1> */}
 
       <h2>Government</h2>

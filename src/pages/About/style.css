@@ -44,20 +44,20 @@
 }
 
 .about .sec-title h2 {
-    margin-top: 1rem;
+  margin-top: 1rem;
   width: 900px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.3;
 }
 
-.about .about-supporting-text {
+.about .sec-vm .about-supporting-text {
   background-color: #fff;
   padding: 50px 20px 40px;
   position: relative;
 }
 
-.about .about-supporting-text h3 {
+.about .sec-vm .about-supporting-text h3 {
   width: 900px;
   font-size: 25px;
   font-weight: 500;
@@ -65,37 +65,31 @@
 }
 
 @media (min-width: 1024px) {
-  .about .about-supporting-text {
+  .about .sec-vm .about-supporting-text {
     padding: 90px 20px 80px;
   }
 }
 
-.about .items {
+.about .sec-vm .items {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.about .item {
-  margin-bottom: 10px;
+.about .sec-vm .item {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
-@media (min-width: 1024px) {
-  .about .item {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-}
-
-.about .item:last-child {
+.about .sec-vm .qna-item:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
   border: none;
 }
 
-.about .heading-container {
+.about .sec-vm .heading-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -103,25 +97,189 @@
 }
 
 @media (min-width: 1024px) {
-  .about .heading-container {
+  .about .sec-vm .heading-container {
     width: 30%;
     flex-shrink: 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .about .heading {
+  .about .sec-vm .heading {
     white-space: nowrap;
   }
 }
 
-.about .description {
+.about .sec-vm .description {
   margin-top: 20px;
 }
 
 @media (min-width: 1024px) {
-  .about .description {
+  .about .sec-vm .description {
     margin-top: 0;
     margin-left: 30px;
   }
+}
+
+.about .sec-faq {
+  background-color: #f6f6f6;
+  padding: 40px 20px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .about .sec-faq {
+    padding: 80px 20px;
+  }
+}
+
+.about .sec-faq.has-avatar {
+  margin-top: 110px;
+}
+
+@media (min-width: 768px) {
+  .about .sec-faq.has-avatar {
+    margin-top: 160px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .about.sec-faq.has-avatar {
+    margin-top: 180px;
+  }
+}
+
+.about .sec-faq h4 {
+  padding-right: 25px;
+}
+
+.about .sec-faq h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.about .sec-faq .about-inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px;
+}
+
+.about .sec-faq .items {
+  margin-top: 30px;
+}
+
+.about .sec-faq .qna-item {
+  margin-top: 3px;
+}
+
+.about .sec-faq .question {
+  background-color: #ededed;
+  padding: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about .sec-faq .question::after,
+.about .sec-faq .question::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  transition: height 0.3s ease, opacity 0.3s ease;
+  height: 0;
+  opacity: 0;
+}
+
+.about .sec-faq .question::before {
+  top: 50%;
+}
+
+.about .sec-faq .question::after {
+  bottom: 50%;
+}
+
+@media (min-width: 1025px) {
+  .about .sec-faq .question:hover::after,
+  .about .sec-faq .question:hover::before {
+    opacity: 0.1;
+    height: 50%;
+  }
+}
+
+.about .sec-faq .qna-item.active .question {
+  background-color: transparent;
+}
+
+.about .sec-faq .plus,
+.about .sec-faq .minus {
+  height: 20px;
+  width: 20px;
+  color: #a32306;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.about .sec-faq .minus {
+  opacity: 0;
+}
+
+.about .sec-faq .qna-item.active .minus,
+.about .sec-faq .qna-item.active .plus {
+  transform: translateY(-50%) rotate(0);
+}
+
+.about .sec-faq .qna-item.active .minus {
+  opacity: 1;
+}
+
+.about .sec-faq .qna-item.active .plus {
+  opacity: 0;
+}
+
+.about .sec-faq .answer {
+  max-height: 0;
+  transition: max-height 0.7s ease;
+  overflow: hidden;
+}
+
+.about .sec-faq .qna-item.active .answer {
+  max-height: 725px;
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: -4px;
+}
+
+@media (min-width: 1025px) {
+  .about .sec-faq .qna-item.active .answer {
+    max-height: 285px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about .sec-faq .qna-item.active .answer {
+    max-height: 400px;
+  }
+}
+
+@media (min-width: 400px) {
+  .about .sec-faq .qna-item.active .answer {
+    max-height: 725px;
+  }
+}
+
+.about .sec-faq .answer-inner {
+  padding: 0 20px 20px;
+}
+
+.about .sec-faq .answer-inner p {
+  margin-bottom: 15px;
+  margin-top: 8px;
 }

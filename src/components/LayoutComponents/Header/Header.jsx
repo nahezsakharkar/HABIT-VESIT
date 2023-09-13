@@ -54,7 +54,7 @@ export default function Header() {
             <NavLink to="/Contact">Connect</NavLink>
             <a
               href="https://vesit.ves.ac.in/"
-              style={{ fontFamily: "Lucida Handwriting" }}
+              style={{ fontFamily: "Lucida Handwriting, Kunstler Script, Edwardian Script" }}
             >
               -- VESIT
             </a>

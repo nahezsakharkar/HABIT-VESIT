@@ -13,7 +13,7 @@ function About() {
     <main className="about">
       <div className="header-spacer"></div>
       <div className="coverimage" data-aos="zoom-in">
-        <img src="src/assets/images/Team.jpg" alt="Team Image" />
+        <img src="/assets/images/Team.jpg" alt="Team Image" />
       </div>
       <div className="sec-title">
         <h1>About HABIT</h1>

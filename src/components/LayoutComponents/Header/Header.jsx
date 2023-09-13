@@ -41,7 +41,7 @@ export default function Header() {
       >
         <div>
           <NavLink to="/">
-            <img src="src\assets\images\logos\logo.png" alt="VESIT Logo" />
+            <img src="/assets/images/logos/logo.png" alt="VESIT Logo" />
           </NavLink>
         </div>
         <div>

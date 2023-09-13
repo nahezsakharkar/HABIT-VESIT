@@ -10,13 +10,13 @@ export default function Partners() {
       <div className="partner-category">
         <div className="partner">
           <img
-            src="src\assets\images\partner-images\1.png"
+            src="/assets/images/partner-images\1.png"
             alt="Government Icon 1"
           />
         </div>
         <div className="partner">
           <img
-            src="src\assets\images\partner-images\2.png"
+            src="/assets/images/partner-images\2.png"
             alt="Government Icon 2"
           />
         </div>
@@ -32,19 +32,19 @@ export default function Partners() {
       <div className="partner-category">
         <div className="partner">
           <img
-            src="src\assets\images\partner-images\268.jpg"
+            src="/assets/images/partner-images\268.jpg"
             alt="Corporate Icon 1"
           />
         </div>
         <div className="partner">
           <img
-            src="src\assets\images\partner-images\6.jpg"
+            src="/assets/images/partner-images\6.jpg"
             alt="Corporate Icon 2"
           />
         </div>
         <div className="partner">
           <img
-            src="src\assets\images\partner-images\1114.jpg"
+            src="/assets/images/partner-images\1114.jpg"
             alt="Corporate Icon 3"
           />
         </div>
@@ -57,12 +57,12 @@ export default function Partners() {
         </div>
         <div className="partner">
           <img
-            src="src\assets\images\partner-images\268.jpg"
+            src="/assets/images/partner-images\268.jpg"
             alt="CSR Icon 2"
           />
         </div>
         <div className="partner">
-          <img src="src\assets\images\partner-images\4.png" alt="CSR Icon 3" />
+          <img src="/assets/images/partner-images\4.png" alt="CSR Icon 3" />
         </div>
       </div>
 

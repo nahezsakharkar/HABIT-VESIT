@@ -6,14 +6,14 @@ const teamMembers = [
     role: "Educationist | Angel Investor",
     quote:
       "From shaping the future of technology giants to nurturing the dreams of startups, my journey has been about empowering innovation and driving digital transformation.",
-    path: "src\\assets\\images\\Vijay_Talreja.jpeg",
+    path: "/assets/images/Vijay_Talreja.jpeg",
   },
   {
     name: "Shri. B. L. Boolani",
     role: "Trustee In-charge, VESCOP",
     quote:
       "Incubation centers are the catalysts of transformation, where dreams take root and brilliance blooms.",
-    path: "src\\assets\\images\\BL_Boolani.jpg",
+    path: "/assets/images/BL_Boolani.jpg",
   },
 ];
 

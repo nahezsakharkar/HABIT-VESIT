@@ -56,7 +56,7 @@ export default function Header() {
               href="https://vesit.ves.ac.in/"
               style={{ fontFamily: "Tangerine, cursive, Lucida Handwriting, Kunstler Script, Edwardian Script, Century Gothic" }}
             >
-              -- VESIT
+              -- Vesit
             </a>
           </nav>
         </div>

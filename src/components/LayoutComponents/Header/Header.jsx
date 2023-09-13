@@ -51,7 +51,7 @@ export default function Header() {
             <NavLink to="/Programs">Programs</NavLink>
             <NavLink to="/Partners">Partners</NavLink>
             <NavLink to="/Portfolio">Portfolio</NavLink>
-            <NavLink to="/Contact">Connect with us</NavLink>
+            <NavLink to="/Contact">Connect</NavLink>
             <a
               href="https://vesit.ves.ac.in/"
               style={{ fontFamily: "Lucida Handwriting" }}

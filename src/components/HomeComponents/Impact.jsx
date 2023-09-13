@@ -7,7 +7,7 @@ const Impact = () => {
       <div className="box-container">
         <div className="box">
           <div className="icon">
-            <img src="src\assets\images\vectors\StartupIcon.png" alt="Icon 1" />
+            <img src="/assets/images/vectors/StartupIcon.png" alt="Icon 1" />
           </div>
           <div className="box-title">220 +</div>
           <div className="line"></div>
@@ -16,7 +16,7 @@ const Impact = () => {
         <div className="box">
           <div className="icon">
             <img
-              src="src\assets\images\vectors\EntrepreneurIcon.png"
+              src="/assets/images/vectors/EntrepreneurIcon.png"
               alt="Icon 2"
             />
           </div>
@@ -26,7 +26,7 @@ const Impact = () => {
         </div>
         <div className="box">
           <div className="icon">
-            <img src="src\assets\images\vectors\PatentIcon.png" alt="Icon 3" />
+            <img src="/assets/images/vectors/PatentIcon.png" alt="Icon 3" />
           </div>
           <div className="box-title">6300 +</div>
           <div className="line"></div>
@@ -34,7 +34,7 @@ const Impact = () => {
         </div>
         <div className="box">
           <div className="icon">
-            <img src="src\assets\images\vectors\FundIcon.png" alt="Icon 4" />
+            <img src="/assets/images/vectors/FundIcon.png" alt="Icon 4" />
           </div>
           <div className="box-title">INR 123 Cr.</div>
           <div className="line"></div>

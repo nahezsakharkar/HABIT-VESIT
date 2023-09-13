@@ -10,7 +10,7 @@ export default function AllPrograms() {
           <a key={item.color} data-aos="fade-up" className="work-tile">
             <div className="background">
               <img
-                src={`src/assets/images/${item.image}`}
+                src={`/assets/images/${item.image}`}
                 alt="HABIT Program Image"
               />
             </div>

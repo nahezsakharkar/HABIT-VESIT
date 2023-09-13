@@ -22,7 +22,7 @@ export default function Partners() {
         </div>
         <div className="partner">
           <img
-            src="src\assets\images\partner-images\3.png"
+            src="/assets/images/partner-images\3.png"
             alt="Government Icon 3"
           />
         </div>
@@ -53,7 +53,7 @@ export default function Partners() {
       <h2>CSR</h2>
       <div className="partner-category">
         <div className="partner">
-          <img src="src\assets\images\partner-images\6.jpg" alt="CSR Icon 1" />
+          <img src="/assets/images/partner-images\6.jpg" alt="CSR Icon 1" />
         </div>
         <div className="partner">
           <img

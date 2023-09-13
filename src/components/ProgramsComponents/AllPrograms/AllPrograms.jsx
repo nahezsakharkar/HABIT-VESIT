@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import programsData from "./../../../assets/data/programs.json";
+import programsData from "/assets/data/programs.json";
 import "./style.css";
 
 export default function AllPrograms() {

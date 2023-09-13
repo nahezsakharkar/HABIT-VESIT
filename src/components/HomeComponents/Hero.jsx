@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="hero-container-col">
           <div className="hero-img-container">
             <div className="bulb" data-aos="zoom-in">
-              <img src="src\assets\images\HERO.png" alt="Hero Icon" />
+              <img src="\assets\images\HERO.png" alt="Hero Icon" />
             </div>
             {/* <div className="wavedot">
             <img src="src\assets\images\polkadots.png" alt="Hero Icon" />

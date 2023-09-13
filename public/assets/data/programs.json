@@ -1,0 +1,52 @@
+{
+  "programs": [
+    {
+      "image": "Program1.jpg",
+      "color": "#ff4f5a",
+      "logo": "",
+      "stat": "Increased user engagement by 50%.",
+      "type": "Tech",
+      "client": "Tech Innovators Inc."
+    },
+    {
+      "image": "Program2.jpg",
+      "color": "#065d7f",
+      "logo": "",
+      "stat": "Improved patient care with cutting-edge solutions.",
+      "type": "Healthcare",
+      "client": "HealthTech Solutions"
+    },
+    {
+      "image": "Program3.jpg",
+      "color": "#a3add1",
+      "logo": "",
+      "stat": "More customer retention.",
+      "type": "Electronics",
+      "client": "TOP TEN"
+    },
+    {
+      "image": "Program4.jpg",
+      "color": "#9c2b2f",
+      "logo": "",
+      "stat": "On-Time delivery.",
+      "type": "Salon & Spa",
+      "client": "ENVI"
+    },
+    {
+      "image": "Program5.jpg",
+      "color": "#50464f",
+      "logo": "",
+      "stat": "Increased brand performance.",
+      "type": "Laminate & Charcoal Display",
+      "client": "Finance Solutions Ltd."
+    },
+    {
+      "image": "Program6.jpg",
+      "color": "#d0e4db",
+      "logo": "",
+      "stat": "Optimized financial operations for higher profitability.",
+      "type": "Finance",
+      "client": "Finance Solutions Ltd."
+    }
+  ]
+}

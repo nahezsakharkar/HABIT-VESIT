@@ -43,6 +43,7 @@ Yellow Color Code #E5B94C
   width: 800px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .navbar a {

@@ -188,6 +188,7 @@ h1 {
 }
 
 .map {
+  margin: auto;
   max-width: 1000px;
   padding: 2rem;
 }
